@@ -1,0 +1,7 @@
+SHOW TABLES;
+
+
+
+
+
+
