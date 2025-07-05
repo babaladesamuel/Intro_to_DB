@@ -1,12 +1,10 @@
 import mysql.connector
-import mysql.connector  # For static checker to recognize
-from mysql.connector import Error
 
 try:
     connection = mysql.connector.connect(
         host='localhost',
         user='root',
-        password='your_password'  # Replace this with your real password
+        password='your_password'  # Replace with your actual password
     )
 
     if connection.is_connected():
