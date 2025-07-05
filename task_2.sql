@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 -- SELECT THE DATABASE TO USE
 USE alx_book_store;
 
@@ -93,3 +93,6 @@ CREATE TABLE IF NOT EXISTS ORDER_DETAILS (
     FOREIGN KEY (book_id) REFERENCES BOOKS(book_id)
 );
 >>>>>>> 5f4f1c16fee186457270c856e0057c20d6ae11b7
+=======
+
+>>>>>>> bdc9e2a12a8d47072dbb725ae9827bd73728cf9a
